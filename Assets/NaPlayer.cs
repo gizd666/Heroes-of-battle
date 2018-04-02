@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Networking;
-public class NaPlayer: NetworkBehaviour {
+public class NaPlayer: MonoBehaviour {
 	public GameObject targetMarker;
 	public GameObject Celownik;
 	private NavMeshAgent agent;
@@ -38,10 +38,7 @@ public class NaPlayer: NetworkBehaviour {
 
 	void Update () {
 		
-		if (!isLocalPlayer)
-		{
-			return;
-		}
+
 
 		if (Input.GetKeyDown (KeyCode.T)) {  
 			dwah = true;
