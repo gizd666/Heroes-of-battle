@@ -5,15 +5,15 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 459968}
-  - 20: {fileID: 2056488}
-  - 92: {fileID: 9275010}
-  - 124: {fileID: 12455804}
-  - 81: {fileID: 8165074}
-  - 114: {fileID: 11488424}
-  - 114: {fileID: 11455738}
+  - component: {fileID: 459968}
+  - component: {fileID: 2056488}
+  - component: {fileID: 9275010}
+  - component: {fileID: 12455804}
+  - component: {fileID: 8165074}
+  - component: {fileID: 11488424}
+  - component: {fileID: 11455738}
   m_Layer: 0
   m_Name: RTS_Camera
   m_TagString: Untagged
@@ -33,6 +33,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &2056488
 Camera:
   m_ObjectHideFlags: 1
@@ -63,10 +64,12 @@ Camera:
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
-  m_StereoMirrorMode: 0
 --- !u!81 &8165074
 AudioListener:
   m_ObjectHideFlags: 1
