@@ -36,3 +36,10 @@ sysinfo.txt
 *.apk
 *.unitypackage
 *.x86
+
+
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+[Tt]humbs.db
